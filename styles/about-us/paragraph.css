@@ -1,0 +1,103 @@
+.b-paragraph {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.b-paragraph--indent {
+  margin-bottom: 76px;
+}
+
+.b-paragraph--indent-small {
+  margin-bottom: 30px;
+}
+
+.b-paragraph--indent-less-small {
+  margin-bottom: 42px;
+}
+
+.b-paragraph--indent-little {
+  margin-bottom: 25px;
+  max-width: 700px;
+}
+
+.b-paragraph--indent-big {
+  margin-bottom: 81px;
+}
+
+.b-paragraph--approach {
+  color: #93a4a9;
+  max-width: 380px;
+}
+
+.b-paragraph--snake {
+  font-size: 20px;
+  font-family: Roboto-Bold;
+  line-height: 1.5;
+  width: 210px;
+  position: absolute;
+  margin-left: 70px;
+}
+
+.b-paragraph-large {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+.b-paragraph-large--light {
+  color: #f4f4f7;
+}
+
+.b-paragraph-large--high-end-services {
+  color: #f4f4f7;
+}
+
+.b-paragraph--footer {
+  color: #f4f4f7;
+}
+
+.b-paragraph-large--footer {
+  margin-bottom: 35px;
+  color: #f4f4f7;
+}
+
+@media (max-width: 1218px) {
+  .b-paragraph--indent-big {
+    margin-bottom: 61px;
+  }
+}
+
+@media (max-width: 818px) {
+  .b-paragraph--snake {
+    margin-left: 55px;
+  }
+  .b-paragraph--approach {
+    margin-bottom: 30px;
+  }
+  .b-paragraph--indent-big {
+    margin-bottom: 0;
+  }
+  .b-paragraph {
+    font-size: 15px;
+    line-height: 1.33;
+  }
+  .b-paragraph--indent {
+    margin-bottom: 34px;
+  }
+  .b-paragraph-large {
+    font-size: 15px;
+    line-height: 1.33;
+  }
+  .b-paragraph--indent-less-small {
+    margin-bottom: 26px;
+  }
+}

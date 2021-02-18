@@ -1,0 +1,129 @@
+.b-snake {
+  display: flex;
+}
+
+.b-snake-line-top {
+  position: absolute;
+  transform: translate(120px, 16px);
+  width: 54px;
+}
+
+.b-snake-line-right-top {
+  position: absolute;
+  transform: translate(121px, 224px);
+  width: 221px;
+}
+.b-snake-line-right-center {
+  position: absolute;
+  transform: translate(341px, 319px);
+  height: calc(100% - 611px);
+  width: 1px;
+  min-height: 35px;
+  background: url(../img/about-us/line-right-center.png) repeat-y #dddddd;
+}
+.b-snake-line-right-bottom {
+  position: absolute;
+  transform: translate(612px, 59px);
+  width: 110px;
+}
+
+.b-snake-line-left {
+  position: absolute;
+  transform: translate(121px, 104px);
+  width: 260px;
+}
+
+.b-snake-line-bottom {
+  position: absolute;
+  transform: translate(280px, 224px);
+  width: 209px;
+}
+
+.b-snake-list {
+  position: absolute;
+  list-style: none;
+  width: 150px;
+}
+
+.b-snake-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.b-snake-list__item-one {
+  transform: translate(190px, 0px);
+}
+
+.b-snake-list__item-two {
+  transform: translate(95px, 107px);
+}
+
+.b-snake-list__item-three {
+  transform: translate(401px, 79px);
+}
+
+.b-snake-list__item-fore {
+  transform: translate(97px, 147px);
+}
+
+.b-snake-list__item-five {
+  transform: translate(464px, 196px);
+}
+
+.b-snake-head {
+  height: 100%;
+}
+
+.b-snake-body {
+  height: 350px;
+}
+
+@media (max-width: 818px) {
+  .b-snake {
+    display: flex;
+    flex-direction: column;
+  }
+  .b-snake-line-top {
+    display: none;
+  }
+
+  .b-snake-line-right-top {
+    display: none;
+  }
+  .b-snake-line-right-center {
+    display: none;
+  }
+  .b-snake-line-right-bottom {
+    display: none;
+  }
+
+  .b-snake-line-bottom {
+    display: none;
+  }
+
+  .b-snake-line-left {
+    display: none;
+  }
+
+  .b-snake-body {
+    height: 185px;
+  }
+
+  .b-snake-list {
+    position: relative;
+  }
+
+  .b-snake-list__item {
+    transform: none;
+  }
+  .b-icon--snake {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .b-snake-list__item {
+    transform: none;
+    padding: 10px 0;
+  }
+}

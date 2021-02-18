@@ -1,0 +1,92 @@
+.b-high-end-services {
+  position: relative;
+  max-width: 1180px;
+  background-color: #2d2d42;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 102px 0 99px;
+  color: #f4f4f7;
+}
+
+.b-high-end-services__text {
+  max-width: 475px;
+  margin: 100px 0 0;
+}
+
+.b-paragraph--high-end-services {
+  margin-bottom: 30px;
+}
+
+.b-high-end-services::before {
+  content: "";
+  position: absolute;
+  top: -48px;
+  left: -131px;
+  background: url(../../img/about-us/high-end-services-top.png) no-repeat
+    center/contain;
+  width: 495px;
+  height: 910px;
+  z-index: 10;
+}
+
+.b-high-end-services::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  background: url(../../img/about-us/high-end-services-bottom.png) no-repeat
+    center/contain;
+  width: 670px;
+  height: 855px;
+  z-index: 10;
+}
+
+.b-title--high-end-services {
+  padding-right: 100px;
+  margin-bottom: 30px;
+  color: #f4f4f7;
+}
+
+@media (max-width: 1218px) {
+  .b-high-end-services {
+    overflow: hidden;
+    padding: 103px 0 100px;
+    margin-bottom: 0;
+  }
+
+  .b-high-end-services::after {
+    bottom: -2px;
+    right: -100px;
+  }
+}
+@media (max-width: 818px) {
+  .b-high-end-services::before {
+    display: none;
+  }
+
+  .b-high-end-services::after {
+    display: none;
+  }
+  .b-paragraph--high-end-services {
+    font-size: 13px;
+    line-height: 1.6em;
+    margin-bottom: 19px;
+  }
+  .b-high-end-services {
+    padding: 32px 0;
+    margin-bottom: 0;
+  }
+  .b-high-end-services__text {
+    max-width: 100%;
+    margin-top: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  .b-high-end-services::before {
+    top: -18px;
+    left: -292px;
+  }
+  .b-high-end-services {
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,151 @@
+.b-form {
+  background-color: #2d2d42;
+}
+.b-form__name {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.b-form__name {
+  position: relative;
+}
+
+.b-form__email {
+  position: relative;
+}
+
+.b-form__phone {
+  position: relative;
+}
+
+.b-form__input {
+  background-color: transparent;
+  width: 391px;
+  height: 71px;
+  margin-bottom: 30px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f4f4f7;
+  border: none;
+  border-bottom: 1px solid rgba(192, 198, 200, 0.2);
+}
+.b-form__input:hover {
+  border-bottom: 1px solid #c0c6c8;
+}
+.b-form__textarea {
+  display: flex;
+  flex-direction: column;
+}
+.b-form__label {
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #f4f4f7;
+  margin-bottom: 30px;
+}
+.b-form__input-textarea {
+  background-color: transparent;
+  border: none;
+  width: 391px;
+  height: 200px;
+  resize: none;
+  margin-top: 22px;
+}
+.b-form__input-textarea:hover {
+  border: none;
+}
+
+.b-form__input::placeholder,
+.b-form__input--textarea::placeholder {
+  color: #f4f4f7;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.b-form__input:focus,
+.b-form__input--textarea:focus {
+  outline: none;
+}
+
+.b-form__input + .b-label {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f4f4f7;
+}
+
+.b-form__input + .b-label--name {
+  transition: 0.2s ease-out;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.b-form__input + .b-label--email {
+  transition: 0.2s ease-out;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.b-form__input + .b-label--phone {
+  transition: 0.2s ease-out;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.b-form__input:focus + .b-label,
+.b-form__input:not(:focus):valid ~ .b-label {
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #f4f4f7;
+  position: absolute;
+  left: 0;
+  transform: translateY(-20px);
+}
+
+@media (max-width: 818px) {
+  .b-form__input {
+    width: unset;
+  }
+  .b-form__input {
+    width: 100%;
+  }
+  .b-form__input + .b-label {
+    font-size: 15px;
+  }
+  .b-form__input {
+    height: 58px;
+    margin-bottom: 13px;
+    font-size: 15px;
+  }
+  .b-form__label {
+    margin-bottom: 16px;
+  }
+  .b-form__textarea .b-form__input {
+    margin-top: 0px;
+    height: 99px;
+  }
+  .b-form__textarea .b-form__input::placeholder {
+    font-size: 15px;
+  }
+}

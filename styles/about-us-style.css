@@ -1,0 +1,37 @@
+@import url("./fonts.css");
+@import url("about-us/layout.css");
+@import url("about-us/icon.css");
+@import url("about-us/header.css");
+@import url("about-us/paragraph.css");
+@import url("about-us/menu.css");
+@import url("about-us/approach.css");
+@import url("about-us/button.css");
+@import url("about-us/client.css");
+@import url("about-us/connection.css");
+@import url("about-us/footer.css");
+@import url("about-us/form.css");
+@import url("about-us/group-icon-text.css");
+@import url("about-us/high-end-services.css");
+@import url("about-us/icon-text.css");
+@import url("about-us/language.css");
+@import url("about-us/line.css");
+@import url("about-us/link.css");
+@import url("about-us/list.css");
+@import url("about-us/picture.css");
+@import url("about-us/section.css");
+@import url("about-us/snake.css");
+@import url("about-us/title.css");
+
+@media (max-width: 1218px) {
+  .b-section--our-methodology {
+    overflow: hidden;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 818px) {
+  .b-section--our-methodology {
+    padding-bottom: 34px;
+  }
+}

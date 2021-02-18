@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+    <defs>
+        <path id="a" d="M.514.498h1v5.906h-1z"/>
+        <path id="c" d="M.895.498h1v5.906h-1z"/>
+        <path id="e" d="M.277.498h1v5.906h-1z"/>
+        <path id="g" d="M.658.498h1v5.906h-1z"/>
+        <path id="i" d="M.04.498h1v5.906h-1z"/>
+        <path id="k" d="M0 .692h5.825v1H0z"/>
+        <path id="m" d="M0 .073h5.825v1H0z"/>
+        <path id="o" d="M0 .455h5.825v1H0z"/>
+        <path id="q" d="M0 .837h5.825v1H0z"/>
+        <path id="s" d="M0 .218h5.825v1H0z"/>
+        <path id="u" d="M.326.096h6v1h-6z"/>
+        <path id="w" d="M.326.477h6v1h-6z"/>
+        <path id="y" d="M.326.859h6v1h-6z"/>
+        <path id="A" d="M.326.24h6v1h-6z"/>
+        <path id="C" d="M.326.623h6v1h-6z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M10.609 39.41v6.092M16.991 39.41v6.092M23.372 39.41v6.092M29.754 39.41v6.092M36.135 39.41v6.092"/>
+        <g transform="translate(8 -.498)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M1.014.498v5.906" mask="url(#b)"/>
+        </g>
+        <g transform="translate(14 -.498)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M1.395.498v5.906" mask="url(#d)"/>
+        </g>
+        <g transform="translate(21 -.498)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M.777.498v5.906" mask="url(#f)"/>
+        </g>
+        <g transform="translate(27 -.498)">
+            <mask id="h" fill="#fff">
+                <use xlink:href="#g"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M1.158.498v5.906" mask="url(#h)"/>
+        </g>
+        <g transform="translate(34 -.498)">
+            <mask id="j" fill="#fff">
+                <use xlink:href="#i"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M.54.498v5.906" mask="url(#j)"/>
+        </g>
+        <g transform="translate(0 9.502)">
+            <mask id="l" fill="#fff">
+                <use xlink:href="#k"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M5.825 1.192H0" mask="url(#l)"/>
+        </g>
+        <g transform="translate(0 16.502)">
+            <mask id="n" fill="#fff">
+                <use xlink:href="#m"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M5.825.573H0" mask="url(#n)"/>
+        </g>
+        <g transform="translate(0 22.502)">
+            <mask id="p" fill="#fff">
+                <use xlink:href="#o"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M5.825.955H0" mask="url(#p)"/>
+        </g>
+        <g transform="translate(0 28.502)">
+            <mask id="r" fill="#fff">
+                <use xlink:href="#q"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M5.825 1.337H0" mask="url(#r)"/>
+        </g>
+        <g transform="translate(0 35.502)">
+            <mask id="t" fill="#fff">
+                <use xlink:href="#s"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M5.825.718H0" mask="url(#t)"/>
+        </g>
+        <g transform="translate(39 8.502)">
+            <mask id="v" fill="#fff">
+                <use xlink:href="#u"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M6.326.596h-6" mask="url(#v)"/>
+        </g>
+        <g transform="translate(39 14.502)">
+            <mask id="x" fill="#fff">
+                <use xlink:href="#w"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M6.326.977h-6" mask="url(#x)"/>
+        </g>
+        <g transform="translate(39 20.502)">
+            <mask id="z" fill="#fff">
+                <use xlink:href="#y"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M6.326 1.359h-6" mask="url(#z)"/>
+        </g>
+        <g transform="translate(39 27.502)">
+            <mask id="B" fill="#fff">
+                <use xlink:href="#A"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M6.326.741h-6" mask="url(#B)"/>
+        </g>
+        <g transform="translate(39 33.502)">
+            <mask id="D" fill="#fff">
+                <use xlink:href="#C"/>
+            </mask>
+            <path stroke="#2E2E41" stroke-linejoin="round" stroke-width="2" d="M6.326 1.123h-6" mask="url(#D)"/>
+        </g>
+        <path fill="#FFF" d="M5.823 39.41h33.503V5.905H5.823z"/>
+        <path stroke="#2E2E41" stroke-width="2" d="M5.823 39.41h33.503V5.905H5.823z"/>
+        <g stroke="#2E2E41" stroke-linejoin="round" stroke-width="2">
+            <path d="M25.514 29.226c.663-1.855 4.91-1.658 3.853 2.287-1.334 4.99-6.16 2.207-6.16 2.207V12.017s4.182-2.691 5.375 3.307c0 0 2.356.339 2.552 3.893 0 0 3.44 2.928.491 6.585-1.015 1.26-2.257.534-3.016-.146M14.646 25.62c-2.948-3.659.633-6.403.633-6.403.197-3.554 2.553-3.894 2.553-3.894 1.36-5.998 5.375-3.307 5.375-3.307V33.72c-2.284 1.374-4.963 1.28-6.016-1.517-.611-1.623.143-2.848.143-2.848M29.367 31.513s3.535-1.4 2.258-5.711M23.207 20.482s2.515-1.612 4.105-.525M28.263 17.898c-.577.763-1.413 2.28-.856 4.167M17.334 22.918s-6.46 2.789-.2 9.12M17.832 15.323s1.746.072 1.582 2.505M19.037 19.723s2.756 1.38 2.073 3.908M20.686 27.158s-2.242 1.75-.471 3.631"/>
+        </g>
+    </g>
+</svg>

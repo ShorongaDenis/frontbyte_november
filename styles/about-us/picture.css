@@ -1,0 +1,72 @@
+.b-picture {
+  /* max-width: 1180px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.b-picture--map-light {
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 101px;
+  display: block;
+}
+
+.b-map {
+  position: relative;
+  max-width: 902.8px;
+  height: 440px;
+  margin: 0 auto;
+}
+
+.b-picture--map {
+  top: 0;
+  height: 440px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 901px;
+  height: 440px;
+}
+
+.b-picture--map img {
+}
+
+.b-picture--indent {
+  margin-bottom: 100px;
+}
+
+.b-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.b-img--logo {
+  max-width: 100%;
+  max-height: none;
+}
+
+@media (max-width: 1218px) {
+  .b-picture--our-team {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 818px) {
+  .b-picture--map-light {
+    margin-bottom: -48px;
+    margin-left: 0;
+    height: 391px;
+  }
+
+  .b-picture--indent {
+    /* max-width: 768px; */
+    height: auto;
+  }
+
+  .b-picture--our-team img {
+    margin-bottom: 51px;
+  }
+}

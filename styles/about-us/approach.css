@@ -1,0 +1,36 @@
+.b-approach {
+  display: flex;
+  flex-direction: column;
+  min-height: 645px;
+  position: relative;
+}
+.b-approach--indent {
+  margin-bottom: 80px;
+}
+.b-approach__snake {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-236px, -256px);
+}
+@media (max-width: 1218px) {
+  .b-approach--indent{
+    margin-top: 83px;
+  }
+  .b-approach__snake{
+    transform: translate(-244px, -256px);
+  }
+}
+@media (max-width: 818px) {
+  .b-approach{
+    min-height: unset;
+    margin-bottom: 20px;
+  }
+  .b-approach--indent{
+    margin-top: 22px;
+  }
+  .b-approach__snake{
+    position: relative;
+    transform: translate(0,0);
+  }
+}

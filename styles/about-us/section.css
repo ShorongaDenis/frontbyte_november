@@ -1,0 +1,111 @@
+.b-section {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.b-section--dark {
+  background-color: #2d2d42;
+  padding-bottom: 63px;
+}
+
+.b-section--address {
+  padding: 90px 0 100px;
+}
+
+.b-section--indent {
+  margin-bottom: 100px;
+}
+
+.b-section--internal-indent {
+  padding-top: 0;
+}
+
+@media (max-width: 1218px) {
+  .b-section--indent {
+    padding-bottom: 100px;
+    margin-bottom: 0;
+  }
+
+  .b-section--address {
+    padding-top: 48px;
+  }
+
+  .b-section--clients {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 100px 0;
+  }
+
+  .b-section--dark {
+    padding-bottom: 143px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 818px) {
+  .b-section--address {
+    padding: 29px 0 31px;
+  }
+
+  .b-section--indent .b-picture {
+    background-position: center;
+    margin: 0;
+    position: relative;
+  }
+
+  .b-map .b-picture {
+    padding-right: 100px;
+  }
+
+  .b-section--dark .b-paragraph--indent-big {
+    margin-bottom: 30px;
+  }
+
+  .b-section--internal-indent {
+    padding-top: 0;
+  }
+  .b-section {
+    padding: 30px 0;
+  }
+  .b-section--dark {
+    padding-bottom: 21px;
+  }
+  .b-about-us {
+    padding-top: 0;
+    padding-bottom: 66px;
+  }
+  .b-section--clients {
+    padding-bottom: 22px;
+  }
+}
+
+@media (max-width: 825px) {
+  .b-client {
+    margin: 0 auto;
+    max-width: 620px;
+  }
+}
+
+@media (max-width: 818px) {
+  .b-client {
+    margin-bottom: 0;
+    margin: 0 auto;
+    max-width: 536px;
+  }
+}
+
+@media (max-width: 519px) {
+  .b-client {
+    margin-bottom: 0;
+    margin: 0 auto;
+    max-width: 405px;
+  }
+}
+
+@media (max-width: 389px) {
+  .b-client {
+    margin-bottom: 0;
+    margin: 0 auto;
+    max-width: 276px;
+  }
+}

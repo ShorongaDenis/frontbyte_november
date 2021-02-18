@@ -1,0 +1,214 @@
+.b-icon {
+  display: flex;
+  max-width: 60px;
+  height: 60px;
+  background-color: #f4f4f7;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #f4f4f7;
+  font-size: 20px;
+  font-family: Roboto-Bold;
+}
+
+.b-icon--little {
+  max-width: 40px;
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 115px;
+}
+
+.b-icon--small {
+  width: 50px;
+  height: 50px;
+}
+
+.b-icon--big {
+  max-width: 90px;
+  height: 90px;
+}
+
+.b-icon--one {
+  background-color: #64cae1;
+}
+
+.b-icon--two {
+  background-color: #d04b9b;
+}
+
+.b-icon--three {
+  background-color: #f47e3d;
+}
+
+.b-icon--fore {
+  background-color: #93a4a9;
+}
+
+.b-icon--five {
+  background-color: #64cae1;
+}
+
+.b-icon--enterprise {
+  background-color: #64cae1;
+}
+
+.b-icon--about-us-header {
+  margin-bottom: 23px;
+}
+
+.b-icon--fullcycle {
+  background-color: #d04b9b;
+}
+
+.b-icon--portfolio {
+  background-color: #93a4a9;
+}
+
+.b-icon--solutions {
+  background-color: #f47e3d;
+}
+
+.b-icon--about-us {
+  margin-bottom: 35px;
+}
+
+.b-icon--sports {
+  background-color: #64cae1;
+}
+
+.b-icon--ar {
+  background-color: #f47e3d;
+}
+
+.b-icon--ai {
+  background-color: #d04b9b;
+}
+
+.b-icon--designers {
+  background-color: #93a4a9;
+}
+
+.b-icon--developers {
+  background-color: #64cae1;
+}
+
+.b-icon--qa {
+  background-color: #d04b9b;
+}
+
+.b-icon-paragraf {
+  font-family: Roboto-Bold;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.b-icon-paragraf-light {
+  font-family: Roboto-Bold;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f4f4f7;
+  margin-bottom: 20px;
+}
+
+.b-icon-paragraf-small {
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.b-icon-paragraf-small-light {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #f4f4f7;
+}
+
+.b-icon--office-belarus {
+  position: absolute;
+  width: 40px;
+  margin: 0;
+  background-color: #d04b9b;
+  transform: translate(74px, -97px);
+}
+
+.b-icon--office-norway {
+  position: absolute;
+  background-color: #64cae1;
+  transform: translate(-4px, -116px);
+}
+
+.b-icon--snake {
+  margin-right: 20px;
+}
+
+@media (max-width: 1218px) {
+  .b-icon-paragraf-light {
+    min-height: 61px;
+  }
+
+  .b-icon-paragraf {
+    width: 200px;
+  }
+}
+
+@media (max-width: 818px) {
+  .b-icon-paragraf-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .b-icon-paragraf-light {
+    min-height: 20px;
+    font-size: 13px;
+  }
+
+  .b-icon-paragraf-small-light {
+    font-size: 13px;
+    padding-right: 30px;
+    line-height: 1.57;
+  }
+
+  .b-icon--about-us {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .b-icon--about-us img {
+    width: 28px;
+    height: 26px;
+  }
+
+  .b-icon-paragraf-light--indent {
+  }
+  .b-icon-paragraf {
+    font-size: 20px;
+  }
+  .b-icon.b-icon--office-norway {
+    width: 38px;
+    height: 38px;
+    transform: translate(46px, -149px);
+  }
+
+  .b-icon.b-icon--office-belarus {
+    width: 30px;
+    height: 30px;
+    transform: translate(106px, -134px);
+  }
+}
